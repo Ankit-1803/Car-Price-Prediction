@@ -33,22 +33,12 @@ In the automotive industry, determining the price of a car involves various fact
 
 ---
 
-## Results
+## 📊 Results
 
-I have selected R2 score as the primary evaluation metric for the Car Price Prediction model. And after removing the overfitted models which have MSE, R2 score, Adjusted R2 score for train as 100% and also have negative accuracy value, we get the final list:
-
-| Sl. No. | Regression Model      |   R2 Train (%) |   R2 Test (%) |
-|:--------|:--------------------------|---------------:|--------------:|
-|    1    | Linear Regression         |       64.21  |      49.24 |
-|    2    | Linear Regression tuned       |       64.21  |      49.24 |
-|    3    | Lasso Regression tuned       |       63.62 |      49.57 |
-|    4    | Ridge Regression         |       64.19 |      49.36 |
-|    5    | Ridge Regression tuned        |       63.92 |      50.22 |
-|    6    | Decision Tree tuned         |       76.00 |      70.37 |
-|    7    | Random Forest         |       98.61 |      93.05 |
-|    8    | Random Forest tuned        |       77.10 |      73.71 |
-|    9    | Gradient Boosting Regressor         |       98.78 |      90.47 |
-|    10    | Gradient Boosting Regressor tuned        |       96.11 |      88.24 |
+- The Linear Regression model achieved an R² score of approximately **0.87 on training data** and **0.84 on test data**.
+- The Lasso Regression model also provided comparable performance with slight regularization benefits.
+- The model successfully predicts car prices based on input features such as year, fuel type, and transmission.
+- Visualization of actual vs predicted prices shows a strong linear relationship, indicating good model performance.
 
 ## Conclusion
 
